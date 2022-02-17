@@ -38,4 +38,16 @@ public class Province extends DataSupport {
         this.provinceCode = provinceCode;
     }
 
+<<<<<<< HEAD
+=======
+    @Override
+    public String toString() {
+        return "Province{" +
+                "id=" + id +
+                ", provinceName='" + provinceName + '\'' +
+                ", provinceCode=" + provinceCode +
+                '}';
+    }
+
+>>>>>>> e8cf54e6e4c4c0ce3f75143e9e94ab51e408f9c0
 }
